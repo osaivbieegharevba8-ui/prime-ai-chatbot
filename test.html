@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button id="btn" style="padding:20px;font-size:20px;">CLICK ME</button>
+  <p id="result"></p>
+  <script>
+    document.getElementById('btn').addEventListener('click', function() {
+      document.getElementById('result').textContent = 'WORKING! ' + new Date().toLocaleTimeString();
+    });
+  </script>
+</body>
+</html>
